@@ -1,0 +1,65 @@
+{
+  "name": "@anuma-network/core-lib",
+  "version": "1.6.5",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "BitPay",
+      "email": "dev@bitpay.com"
+    },
+    {
+      "name": "ASPECTRON Inc",
+      "email": "info@aspectron.com"
+    },
+    {
+      "name": "Anuma Devs",
+      "email": "anumanetwork@gmail.com"
+    }
+  ],
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.4.0",
+    "blake2b-wasm": "^2.4.0",
+    "bn.js": "=4.11.8",
+    "bs58": "^4.0.1",
+    "buffer-compare": "=1.1.1",
+    "elliptic": "^6.5.3",
+    "inherits": "=2.0.1",
+    "lodash": "^4.17.20",
+    "secp256k1-wasm": ">=2.0.0",
+    "url": "*"
+  },
+  "description": "JavaScript Anuma library.",
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnumaNetwork/anumacore-lib.git"
+  },
+  "scripts": {
+    "xbuild": "gulp",
+    "xcoverage": "gulp coverage",
+    "xpub": "npm run build && npm publish",
+    "xtest": "gulp test",
+    "xtest:ci": "npm run test"
+  },
+  "files": [
+    "lib",
+    "index.d.ts",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/AnumaNetwork/anumacore-lib/issues"
+  },
+  "homepage": "https://github.com/AnumaNetwork/anumacore-lib#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  }
+}

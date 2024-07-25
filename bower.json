@@ -1,0 +1,21 @@
+{
+  "name": "anumacore-lib",
+  "main": "./anumacore-lib.min.js",
+  "version": "0.0.1",
+  "homepage": "http://bitcore.io",
+  "authors": ["anuma"],
+  "description": "A pure, powerful core for your bitcoin project.",
+  "moduleType": ["globals"],
+  "keywords": ["bitcoin", "anumacore", "btc", "satoshi"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
