@@ -1,5 +1,5 @@
 {
-  "name": "@anuma-network/core-lib",
+  "name": "@anuma-network/anumacore-lib",
   "version": "1.6.6",
   "main": "index.js",
   "authors": [
@@ -20,6 +20,7 @@
     "request": "browser-request"
   },
   "dependencies": {
+    "@anuma-network/anumacore-lib": "file:",
     "@noble/hashes": "^1.4.0",
     "blake2b-wasm": "^2.4.0",
     "bn.js": "=4.11.8",
@@ -62,6 +63,5 @@
     "lib": "lib",
     "test": "test"
   },
-  "devDependencies": {},
   "author": "Anuma Devs"
 }
