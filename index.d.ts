@@ -1,4 +1,4 @@
-declare module '@anuma-network/core-lib' {
+declare module '@anuma-network/anumacore-lib' {
 
 	function initRuntime(): Promise;
 	function setDebugLevel(level:number):void;
